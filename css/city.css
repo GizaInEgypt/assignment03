@@ -7,7 +7,7 @@
 /* Header and menu */
 .menu, header {
     margin: 0 auto;
-    background-color:#835c46;
+    background-color:#632A3E;/*#835c46;*/
     text-align:center;
     padding: 0 300px 0 300px;
 }
@@ -37,14 +37,14 @@ h1{
 }
 
 a:hover {color: #688770;}
-.menu a{color: bisque;}
+.menu a, footer a{color: bisque;}
 a{
     text-decoration: none;
 }
 
 /* footer */
 footer{
-    background-color:#835c46;
+    background-color: #632A3E;/*#835c46;*/
     color:white;
     clear:both;
     text-align:center;

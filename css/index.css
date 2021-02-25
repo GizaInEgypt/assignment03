@@ -7,7 +7,7 @@
 /* Header and menu */
 .menu, header {
     margin: 0 auto;
-    background-color:#835c46;
+    background-color:#632A3E; /*#835c46;*/
     text-align:center;
     padding: 0 300px 0 300px;
 }
@@ -34,13 +34,13 @@ h1{
 }
 
 .menu a{color: bisque;}
-.container a{color: rgb(97, 63, 50);}
-a:hover {color: #688770;}
+.container a{color: #542334;}/*rgb(97, 63, 50);}*/
+a:hover {color: #74967C;}/*#688770;}*/
 a{text-decoration: none;}
 
 /* footer */
 footer{
-    background-color:#835c46;
+    background-color:#632A3E; /*#835c46;*/
     color:white;
     clear:both;
     text-align:center;
