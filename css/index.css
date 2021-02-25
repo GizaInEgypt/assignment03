@@ -36,9 +36,7 @@ h1{
 .menu a{color: bisque;}
 .container a{color: rgb(97, 63, 50);}
 a:hover {color: #688770;}
-a{
-    text-decoration: none;
-}
+a{text-decoration: none;}
 
 /* footer */
 footer{
@@ -47,6 +45,8 @@ footer{
     clear:both;
     text-align:center;
     padding: 10px;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 
