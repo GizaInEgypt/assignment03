@@ -20,7 +20,7 @@ h1{
     border-bottom: 1px solid white;
 }
 
-h6{
+.subtitle{
     color:white;
     padding: 15px 0px;
     font-size: 20px;
@@ -40,6 +40,10 @@ h6{
 }
 
 a:hover {color: #688770;}
+.menu a{color: bisque;}
+a{
+    text-decoration: none;
+}
 
 /* footer */
 footer{
@@ -58,9 +62,14 @@ footer{
 }
 
 section {
-    margin: 30px;
+    display: inline-block;
+    margin: 10px;
     padding: 10px;
   }
+
+.subsection{
+    border-bottom: 1px solid rgb(194, 204, 195);
+}
 
   section ul {
     padding: 20px;
@@ -90,11 +99,24 @@ section {
 }
  h4{
      font-size: large;
+     padding: 5px 10px;
  }
-
 
 img { padding-top: 10px; }
 
+.center{
+    text-align: center;
+}
+
 p{
-    margin: 30px 10px;
+    margin: 20px 20px;
+}
+
+#twin{
+    padding: 15px;
+}
+
+.year{
+    font-style: italic;
+    display: inline-block;
 }

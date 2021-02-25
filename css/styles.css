@@ -20,26 +20,26 @@ h1{
     border-bottom: 1px solid white;
 }
 
-h6{
+.subtitle{
     color:white;
     padding: 15px 0px;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.menu ul{
-    list-style-type: none;
-}
-
 .menu li{
-    color:rgb(144, 221, 204);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     display: inline-block;
     padding: 10px 20px;
 }
 
+.menu a{color: bisque;}
+.container a{color: rgb(97, 63, 50);}
 a:hover {color: #688770;}
+a{
+    text-decoration: none;
+}
 
 /* footer */
 footer{
@@ -67,14 +67,6 @@ footer{
 }
 
 .cities{
-    margin: 0 auto;
-    padding: 30px 0px;
-    display: grid;
-    grid-template-columns:repeat( auto-fill, minmax(520px, 1fr) );
-    grid-gap: 40px;
-}
-
-.content{
     margin: 0 auto;
     padding: 30px 0px;
     display: grid;
